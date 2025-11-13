@@ -36,10 +36,10 @@
 				<div class="nav-content">
 					<a href="/" class="nav-logo">Task Timer</a>
 					<div class="nav-links">
-						<a href="/" class="nav-link">Tasks</a>
-						<a href="/summary" class="nav-link">Daily Summary</a>
+						<a href="/" class="nav-link" class:active={$page.url.pathname === '/'}>Tasks</a>
+						<a href="/summary" class="nav-link" class:active={$page.url.pathname === '/summary'}>Daily Summary</a>
 						<span class="nav-user">Hello, {$user?.name}</span>
-						<a href="/logout" class="nav-link">Logout</a>
+						<a href="/logout" class="nav-link" class:active={$page.url.pathname === '/logout'}>Logout</a>
 					</div>
 				</div>
 			</nav>

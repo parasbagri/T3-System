@@ -18,15 +18,17 @@
 		"vite": "^7.1.10"
 	},
 	"dependencies": {
+		"@google-cloud/vertexai": "^1.10.0",
+		"@google/genai": "^1.29.1",
 		"@prisma/client": "^6.19.0",
 		"bcrypt": "^6.0.0",
 		"cookie": "^1.0.2",
 		"dayjs": "^1.11.19",
+		"google-auth-library": "^10.5.0",
 		"jsonwebtoken": "^9.0.2",
 		"prisma": "^6.19.0",
 		"zod": "^4.1.12"
-	}
-	,
+	},
 	"prisma": {
 		"seed": "node prisma/seed.js"
 	}
